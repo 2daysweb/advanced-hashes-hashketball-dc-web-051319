@@ -99,7 +99,7 @@ def big_shoe_rebounds
     shoe_rebounds.push(data[:shoe])
   end
   
-max_rebounds = 0
+
 max_index_rebounds = 0 
 max_index_shoes = 0 
 max_index_rebounds = shoe_rebounds.index(shoe_rebounds.sort[0])
