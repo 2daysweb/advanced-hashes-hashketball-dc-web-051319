@@ -107,7 +107,6 @@ def big_shoe_rebounds
   end 
     game_hash[:away][:players].each do |key_name, data|
     
-  
     rebounds.push(data[:rebounds])
   end
   
