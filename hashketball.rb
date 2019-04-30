@@ -88,15 +88,16 @@ end
 
 def big_shoe_rebounds
   #Initialize array of shoe_size, rebound pairs, e.g. [shoe, rebounds, shoe, rebounds, shoe, rebounds....etc]
-  shoe_rebounds = []
+  shoes = []
 
     game_hash[:home][:players].each do |key_name, data|
-    shoe_rebounds.push(data[:rebounds])
     shoe_rebounds.push(data[:shoe])
+    shoe_rebounds.push(data[:rebounds])
   end 
     game_hash[:away][:players].each do |key_name, data|
-    shoe_rebounds.push(data[:rebounds])
+    
     shoe_rebounds.push(data[:shoe])
+    shoe_rebounds.push(data[:rebounds])
   end
   
 
