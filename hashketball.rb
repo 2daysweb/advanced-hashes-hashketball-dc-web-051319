@@ -113,6 +113,7 @@ def big_shoe_rebounds
      idx+=2
    end
  
+ puts shoe_rebounds
   return shoe_rebounds[max_idx-1]
   
 end
