@@ -100,7 +100,9 @@ def big_shoe_rebounds
   end
   
 max_rebounds = 0
-max_rebounds = shoe_rebounds.sort[0] 
+max_index_rebounds = 0 
+max_index_shoes = max_index_rebounds - 1 
+max_index_rebounds = shoe_rebounds.index(shoe_rebounds.sort[0]) 
 
   
 end
