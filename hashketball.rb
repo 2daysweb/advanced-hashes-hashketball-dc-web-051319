@@ -99,22 +99,8 @@ def big_shoe_rebounds
     shoe_rebounds.push(data[:shoe])
   end
   
-  
-  idx = 1
-  max_rebounds = 0
-  max_idx = 99
- 
-
-  shoe_rebounds.each_with_index do |idx, rebounds|
-    if max_rebounds < rebounds
-      max_rebounds == rebounds
-      max_idx == idx 
-     end  
-     idx+=2
-   end
- 
- puts shoe_rebounds
-return shoe_rebounds[max_idx-1]
+max_rebounds = 0
+max_rebounds = shoe_rebounds.sort[0] 
   
 end
   
