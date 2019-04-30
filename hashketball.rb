@@ -114,7 +114,7 @@ def big_shoe_rebounds
    end
  
  puts shoe_rebounds
-  return shoe_rebounds[max_idx-1]
+return shoe_rebounds[max_idx-1]
   
 end
   
