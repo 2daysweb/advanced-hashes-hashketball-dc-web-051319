@@ -116,8 +116,5 @@ max_size = 99
 biggest_shoe = sorted_shoes[0] 
 idx_biggest_shoe = shoes.index(biggest_shoe)
 idx_rebounds = rebounds[idx_biggest_shoe]
-
-
-
 end
   
